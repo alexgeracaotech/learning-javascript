@@ -43,19 +43,57 @@
         'Maior de idade.', se for menor, imprimir 'Menor de idade.'.
         5. Passe a idade do usuário recebida como argumento na
         chamada da função.
+
+        var idadeDoUsuario = Number(prompt('Digite sua idade:'));
+   
+        function verificarIdade(idade) {
+          if (idade >= 18) {
+            console.log('Maior de idade.');
+          } else {
+            console.log('Menor de idade.');
+          }
+        }
+   
+        verificarIdade(idadeDoUsuario);
+
       */
-     
-     var idadeDoUsuario = Number(prompt('Digite sua idade:'));
 
-     function verificarIdade(idade) {
-       if (idade >= 18) {
-         console.log('Maior de idade.');
-       } else {
-         console.log('Menor de idade.');
-       }
-     }
+      // questão 3
+      /*
 
-     verificarIdade(idadeDoUsuario);
+        1. Peça ao usuário para informar sua temperatura atual
+        e à armazene em uma variável.
+        2. Crie uma função chamada 'verificarTemperatura' que recebe uma
+        temperatura como parâmetro.
+        3. Dentro da função, verifique se a temperatura recebida é maior
+        maior que 30 graus, maior que 20 graus, maior que 10 graus,
+        maior que 5 graus ou menor que 5 graus.
+        4. Se a temperatura for maior que 30, imprima no console 'Calor',
+        Se for maior que 20 e menor ou igual a 30, imprima 'Agradável',
+        Se for maior que 10 e menor ou igual a 20, imprima 'Frio',
+        Se for maior que 5 e menor ou igual a 10, imprima 'Muito frio',
+        Se for menor ou igual a 5, imprima 'Gelado'.
+        5. Passe a temperatura recebida do usuário como argumento
+        para a chamada da função.
+
+        var temperatura = Number(prompt('Infome sua temperatura atual:'));
+       
+        function verificarTemperatura(temperatura) {
+          if (temperatura > 30) {
+            console.log('Calor.');
+          } else if (temperatura > 20) {
+            console.log('Agradável.');
+          } else if (temperatura > 10) {
+            console.log('Frio.');
+          } else if (temperatura > 5) {
+            console.log('Muito frio.');
+          } else {
+            console.log('Gelado.');
+          }
+        }
+   
+        verificarTemperatura(temperatura);
+      */
 
 
     </script>
