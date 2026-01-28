@@ -44,6 +44,18 @@
         5. Passe a idade do usuário recebida como argumento na
         chamada da função.
       */
+     
+     var idadeDoUsuario = Number(prompt('Digite sua idade:'));
+
+     function verificarIdade(idade) {
+       if (idade >= 18) {
+         console.log('Maior de idade.');
+       } else {
+         console.log('Menor de idade.');
+       }
+     }
+
+     verificarIdade(idadeDoUsuario);
 
 
     </script>
